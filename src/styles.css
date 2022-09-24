@@ -1,0 +1,103 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(243, 243, 241);
+}
+
+.FinancialSupport {
+  margin-top: 30px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+}
+
+.Login {
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+}
+
+.LoginButton {
+  margin-top: 50px;
+}
+
+#sidebar .pro-sidebar-inner {
+  background-color: rgb(212, 211, 211);
+  color: #414242;
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-custom {
+  background-color: #12b38d;
+  color: #414242 !important;
+}
+
+.app-color {
+  background-color: #12b38d;
+  border: #12b38d;
+}
+
+#sidebar .closemenu {
+  color: #414242;
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  border-radius: 80%;
+  font-weight: bold;
+  font-size: 30px;
+  top: 33px;
+  cursor: pointer;
+  padding-right: 5%;
+}
+
+#sidebar .pro-sidebar.collapsed {
+  width: 100px;
+  min-width: 80px;
+}
+
+#sidebar .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+#sidebar .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+  font-size: 20px;
+  padding: 0 20px;
+  color: #414242;
+  font-weight: bold;
+}
+#sidebar .pro-sidebar-inner .pro-sidebar-layout ul {
+  padding: 0 5px;
+}
+#sidebar .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: #414242;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+#sidebar
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper {
+  background-color: #b6c5b6;
+  color: #414242;
+  border-radius: 3px;
+}
+#sidebar
+  .pro-sidebar-inner
+  .pro-sidebar-layout
+  ul
+  .pro-inner-item
+  .pro-icon-wrapper
+  .pro-item-content {
+  color: #414242;
+}
+#sidebar .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-image: linear-gradient(0deg, #29a789 0%, #40b89c 100%);
+}
+#sidebar .logo {
+  padding: 20px;
+}
+
+#nav-notification.dropdown-toggle::after {
+  display: none !important;
+}
